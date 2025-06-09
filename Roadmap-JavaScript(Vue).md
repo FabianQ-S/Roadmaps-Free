@@ -142,40 +142,44 @@ Estos son los *cimientos inquebrantables* sobre los que construirás toda tu car
 
 Estas son tecnologías valiosas que puedes explorar según tus intereses y necesidades específicas, una vez que tengas una base sólida con las 9 principales. Están ordenadas aproximadamente por cuándo podrían encajar mejor en tu aprendizaje y cómo complementan tu stack JS.
 
-**<u>🔥 Firebase: *Backend como Servicio (BaaS)*}</u>** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="25" height="25" alt="Firebase"> (Dificultad: 2/5 | Relevancia: 4/5)
+##### 🔥 Firebase: *Backend como Servicio (BaaS)* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="25" height="25" alt="Firebase"> (Dificultad: 2/5 | Relevancia: 4/5)
 *   ***Cuándo aprender:*** Fase 1 o 2, para prototipar o proyectos sin backend completo.
 *   ***Beneficio en tu Roadmap:*** Te permite crear rápidamente backends funcionales (autenticación, base de datos en tiempo real Firestore/Realtime Database, almacenamiento de archivos, hosting) para tus aplicaciones Vue, React, Nuxt o Astro sin tener que construir y mantener tu propia API Express desde cero. Ideal para validar ideas o para proyectos donde la lógica de backend es simple. Te enseña sobre arquitecturas serverless y BaaS.
 
-**<u>☕ Mocha & Chai: *Alternativa de Testing*}</u>** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" width="25" height="25" alt="Mocha"> (Dificultad: 3/5 | Relevancia: 3/5)
+##### ☕ Mocha & Chai: *Alternativa de Testing* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" width="25" height="25" alt="Mocha"> (Dificultad: 3/5 | Relevancia: 3/5)
 *   ***Cuándo aprender:*** Después de Jest (Fase 2), si se prefiere o requiere en un proyecto.
 *   ***Beneficio en tu Roadmap:*** Aunque Jest es muy completo, conocer Mocha (un corredor de pruebas flexible) y Chai (una librería de aserciones versátil) te da una perspectiva más amplia sobre el ecosistema de testing en JavaScript. Entenderás diferentes enfoques y herramientas, lo que te hará más adaptable. Algunas comunidades o proyectos más antiguos pueden usarlos.
 
-**<u>📊 GraphQL: *Lenguaje de Consulta para APIs*}</u>** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="25" height="25" alt="GraphQL"> (Dificultad: 4/5 | Relevancia: 4/5)
+##### 📊 GraphQL: *Lenguaje de Consulta para APIs* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="25" height="25" alt="GraphQL"> (Dificultad: 4/5 | Relevancia: 4/5)
 *   ***Cuándo aprender:*** Después de APIs REST y Express.js (Fase 2 o principios de Fase 3).
 *   ***Beneficio en tu Roadmap:*** Mientras que REST es excelente, GraphQL permite a los clientes (tus apps Vue, React, Nuxt, Expo) solicitar exactamente los datos que necesitan, evitando el over-fetching o under-fetching. Esto puede llevar a aplicaciones más eficientes. Aprender a implementar un servidor GraphQL (quizás con Apollo Server sobre Express.js) y consumirlo desde tus frontends es una habilidad muy demandada y potente para aplicaciones con modelos de datos complejos.
-*   🔗 ***Inertia.js (Puente Backend-Frontend)*** (Dificultad: 3/5 | Relevancia: 2/5)
-    *   ***Cuándo aprender:*** Posterior a Fase 2, hacia Fase 3, una vez que domines un backend como Express (o si decides aprender AdonisJS) y un frontend como Vue/React.
-    *   ***Beneficio en tu Roadmap:*** Si decides construir aplicaciones \"monolíticas modernas\" donde el backend (Node.js) sigue manejando el enrutamiento y la lógica de controladores, pero quieres la experiencia de una SPA en el frontend (Vue/React) sin construir una API REST/GraphQL separada, Inertia.js es una excelente opción. Simplifica la comunicación y reduce la necesidad de gestionar estado duplicado. Encaja bien si te gusta un desarrollo full-stack más integrado.
-*   💧 ***AdonisJS (Framework Backend Full-Stack)*** (Dificultad: 3/5-4/5 | Relevancia: 3/5)
-    *   ***Cuándo aprender:*** Fase 3 o después, una vez que te sientas cómodo con Express.js y quizás quieras un framework más estructurado y con \"baterías incluidas\" para proyectos Node.js/TypeScript más grandes.
-    *   ***Beneficio en tu Roadmap:*** AdonisJS es un framework MVC completo, escrito en TypeScript, que ofrece ORM (Lucid), sistema de autenticación, validación, CLI potente, y una estructura de proyecto clara. Sería un paso natural si quieres llevar tus habilidades de backend con Node.js/TypeScript al siguiente nivel después de Express, ofreciendo una experiencia de desarrollo más cohesiva y productiva para aplicaciones complejas.
-*   🎭 ***Puppeteer (Automatización de Navegador)*** (Dificultad: 4/5 | Relevancia: 4/5)
-    *   ***Cuándo aprender:*** Fase 3 o después, una vez que tengas una buena base en testing unitario/integración (con Jest).
-    *   ***Beneficio en tu Roadmap:*** Puppeteer (una librería de Node.js desarrollada por Google) te permite controlar un navegador Chrome/Chromium sin cabeza (o con cabeza) mediante programación. Esto es invaluable para:
-        *   ***Pruebas End-to-End (E2E):*** Automatizar la interacción real del usuario con tus aplicaciones Vue, React, Nuxt, Astro para probar flujos completos.
-        *   ***Web Scraping:*** Extraer datos de sitios web.
-        *   ***Generación de PDFs/Screenshots:*** Crear representaciones de tus páginas web.
-        *   ***Automatización de tareas:*** Rellenar formularios, etc.
-*   🐧 ***Podman (Contenerización sin Daemon)*** (Dificultad: 3/5 | Relevancia: 3/5)
-    *   ***Cuándo aprender:*** Al pensar en el despliegue y la creación de entornos de desarrollo consistentes (Fase 3 o después).
-    *   ***Beneficio en tu Roadmap:*** Podman es una alternativa a Docker para gestionar contenedores, especialmente popular en el ecosistema Red Hat. Aprender a empaquetar tus aplicaciones Node.js (Express, Nuxt con SSR, etc.) y sus dependencias (bases de datos) en contenedores con Podman te permitirá:
-        *   ***Desarrollo Consistente:*** Asegurar que la app funcione igual en tu máquina y en producción.
-        *   ***Despliegue Simplificado:*** Facilitar el despliegue en cualquier entorno que soporte contenedores OCI, como **Red Hat OpenShift** o máquinas virtuales en **Red Hat Enterprise Linux (RHEL)**.
-        *   ***Aislamiento:*** Ejecutar múltiples aplicaciones y servicios sin conflictos.
+
+##### 🔗 Inertia.js: *Puente Backend-Frontend* (Dificultad: 3/5 | Relevancia: 2/5)
+*   ***Cuándo aprender:*** Posterior a Fase 2, hacia Fase 3, una vez que domines un backend como Express (o si decides aprender AdonisJS) y un frontend como Vue/React.
+*   ***Beneficio en tu Roadmap:*** Si decides construir aplicaciones \\\"monolíticas modernas\\\" donde el backend (Node.js) sigue manejando el enrutamiento y la lógica de controladores, pero quieres la experiencia de una SPA en el frontend (Vue/React) sin construir una API REST/GraphQL separada, Inertia.js es una excelente opción. Simplifica la comunicación y reduce la necesidad de gestionar estado duplicado. Encaja bien si te gusta un desarrollo full-stack más integrado.
+
+##### 💧 AdonisJS: *Framework Backend Full-Stack* (Dificultad: 3/5-4/5 | Relevancia: 3/5)
+*   ***Cuándo aprender:*** Fase 3 o después, una vez que te sientas cómodo con Express.js y quizás quieras un framework más estructurado y con \\\"baterías incluidas\\\" para proyectos Node.js/TypeScript más grandes.
+*   ***Beneficio en tu Roadmap:*** AdonisJS es un framework MVC completo, escrito en TypeScript, que ofrece ORM (Lucid), sistema de autenticación, validación, CLI potente, y una estructura de proyecto clara. Sería un paso natural si quieres llevar tus habilidades de backend con Node.js/TypeScript al siguiente nivel después de Express, ofreciendo una experiencia de desarrollo más cohesiva y productiva para aplicaciones complejas.
+
+##### 🎭 Puppeteer: *Automatización de Navegador* (Dificultad: 4/5 | Relevancia: 4/5)
+*   ***Cuándo aprender:*** Fase 3 o después, una vez que tengas una buena base en testing unitario/integración (con Jest).
+*   ***Beneficio en tu Roadmap:*** Puppeteer (una librería de Node.js desarrollada por Google) te permite controlar un navegador Chrome/Chromium sin cabeza (o con cabeza) mediante programación. Esto es invaluable para:
+    *   ***Pruebas End-to-End (E2E):*** Automatizar la interacción real del usuario con tus aplicaciones Vue, React, Nuxt, Astro para probar flujos completos.
+    *   ***Web Scraping:*** Extraer datos de sitios web.
+    *   ***Generación de PDFs/Screenshots:*** Crear representaciones de tus páginas web.
+    *   ***Automatización de tareas:*** Rellenar formularios, etc.
+
+##### 🐧 Podman: *Contenerización sin Daemon* (Dificultad: 3/5 | Relevancia: 3/5)
+*   ***Cuándo aprender:*** Al pensar en el despliegue y la creación de entornos de desarrollo consistentes (Fase 3 o después).
+*   ***Beneficio en tu Roadmap:*** Podman es una alternativa a Docker para gestionar contenedores, especialmente popular en el ecosistema Red Hat. Aprender a empaquetar tus aplicaciones Node.js (Express, Nuxt con SSR, etc.) y sus dependencias (bases de datos) en contenedores con Podman te permitirá:
+    *   ***Desarrollo Consistente:*** Asegurar que la app funcione igual en tu máquina y en producción.
+    *   ***Despliegue Simplificado:*** Facilitar el despliegue en cualquier entorno que soporte contenedores OCI, como **Red Hat OpenShift** o máquinas virtuales en **Red Hat Enterprise Linux (RHEL)**.
+    *   ***Aislamiento:*** Ejecutar múltiples aplicaciones y servicios sin conflictos.
 
 ---
 
-### 🗺️ Comparación con un Roadmap \"Estándar\" de Desarrollador 📊
+### 🗺️ Comparación con un Roadmap \\\"Estándar\\\" de Desarrollador 📊
 
 *Un roadmap más \"tradicional\" o generalista* para un desarrollador que ingresa al mundo, buscando una base amplia, podría verse así:
 
@@ -245,12 +249,8 @@ Esta lista está ordenada según podrías necesitarlas siguiendo el roadmap. Com
 
 ### 📝 Mensaje para la Comunidad de Desarrolladores
 
-*Este roadmap está diseñado para guiar a desarrolladores en el aprendizaje del ecosistema JavaScript moderno. Es un camino increíble y muy bien estructurado que te convertirá en un desarrollador más capaz y versátil.*
+*Este roadmap es tu guía para dominar el ecosistema JavaScript moderno, un camino estructurado que te transformará en un desarrollador versátil y competente. La clave del éxito reside en tu **consistencia** y **curiosidad** incesante. Afrontarás desafíos, desde código rebelde hasta conceptos esquivos; son etapas universales en el aprendizaje. Sin embargo, la recompensa de ver tus proyectos cobrar vida, de descifrar errores complejos y de aplicar nuevos conocimientos es profundamente gratificante.*
 
-*Recuerda que la clave está en la **consistencia** y la **curiosidad**. Habrá momentos de frustración, código que no funciona, conceptos que parecen imposibles de entender... ¡todos pasamos por eso! Pero la satisfacción de ver tu creación funcionar, de resolver ese bug complejo, de aprender algo nuevo y aplicarlo, es inmensa.*
-
-***Celebra tus pequeñas victorias, no te compares con los demás*** *(cada uno tiene su propio ritmo), y busca siempre entender el *porqué* de las cosas, no solo el *cómo*. La comunidad de desarrollo es vasta y, en su mayoría, dispuesta a ayudar.*
-
-*¡Tienes el plan, tienes las herramientas, y estamos seguros de que tienes la capacidad! **¡Ahora sal ahí fuera y empieza a construir cosas asombrosas! ¡El mundo del código te espera! ¡VAMOS!** 💪🚀💻*
+*Valora cada pequeño logro y avanza a tu propio ritmo, sin comparaciones. Esfuérzate por comprender el *porqué* fundamental detrás de las tecnologías, no solo el *cómo* superficial. La comunidad de desarrollo es un recurso inmenso, generalmente ansioso por compartir y ayudar. Con este plan y tus herramientas, tu potencial es ilimitado. **¡Adelante, crea, innova! El universo del código te espera. ¡A programar!** 💪🚀💻*
 
 </div>
